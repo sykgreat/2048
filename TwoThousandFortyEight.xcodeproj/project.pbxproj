@@ -14,6 +14,8 @@
 		0438E5D12A6A786000C0F619 /* TwoThousandFortyEightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438E5D02A6A786000C0F619 /* TwoThousandFortyEightTests.swift */; };
 		0438E5DB2A6A786000C0F619 /* TwoThousandFortyEightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438E5DA2A6A786000C0F619 /* TwoThousandFortyEightUITests.swift */; };
 		0438E5DD2A6A786000C0F619 /* TwoThousandFortyEightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438E5DC2A6A786000C0F619 /* TwoThousandFortyEightUITestsLaunchTests.swift */; };
+		0438E5EA2A6A79CE00C0F619 /* BackgroundGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438E5E92A6A79CE00C0F619 /* BackgroundGrid.swift */; };
+		0438E5EC2A6A80E000C0F619 /* SingleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438E5EB2A6A80E000C0F619 /* SingleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0438E5D62A6A786000C0F619 /* TwoThousandFortyEightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoThousandFortyEightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0438E5DA2A6A786000C0F619 /* TwoThousandFortyEightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoThousandFortyEightUITests.swift; sourceTree = "<group>"; };
 		0438E5DC2A6A786000C0F619 /* TwoThousandFortyEightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoThousandFortyEightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0438E5E92A6A79CE00C0F619 /* BackgroundGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGrid.swift; sourceTree = "<group>"; };
+		0438E5EB2A6A80E000C0F619 /* SingleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				0438E5C22A6A786000C0F619 /* Assets.xcassets */,
 				0438E5C72A6A786000C0F619 /* TwoThousandFortyEight.entitlements */,
 				0438E5C42A6A786000C0F619 /* Preview Content */,
+				0438E5E92A6A79CE00C0F619 /* BackgroundGrid.swift */,
+				0438E5EB2A6A80E000C0F619 /* SingleCard.swift */,
 			);
 			path = TwoThousandFortyEight;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0438E5C12A6A785E00C0F619 /* ContentView.swift in Sources */,
+				0438E5EA2A6A79CE00C0F619 /* BackgroundGrid.swift in Sources */,
+				0438E5EC2A6A80E000C0F619 /* SingleCard.swift in Sources */,
 				0438E5BF2A6A785E00C0F619 /* TwoThousandFortyEightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +359,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -404,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
